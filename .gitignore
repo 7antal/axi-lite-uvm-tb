@@ -18,3 +18,5 @@ sim/.fsm.sch.verilog.xml
 *.vdb/
 csrc/.DS_Store
 .vscode/
+.DS_Store
+.vscode/
