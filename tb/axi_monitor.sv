@@ -37,8 +37,8 @@ class axi_monitor extends uvm_monitor;
     item = axi_seq_item::type_id::create("item");
     item.op = AXI_WRITE;
 
-
-     @(posedge vif.clk);
+    //wait till reset deasserted 
+    @(posedge vif.clk);
     while(!vif.rst_n) @(posedge vif.clk);
 
     while(!(vif.awvalid && vif.awready)) @(posedge vif.clk);

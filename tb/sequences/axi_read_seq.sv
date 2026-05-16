@@ -17,9 +17,9 @@ class axi_read_seq extends axi_base_seq;
       finish_item(item);
 
       item = axi_seq_item::type_id::create("item");
-      // Some transactions with invalid address:
       start_item(item);
       item.c_addr.constraint_mode(0);
+      // Some transactions with invalid address:
       void'(item.randomize() with { araddr[1:0] != 2'b00; op == AXI_READ; });
       item.c_addr.constraint_mode(1);
       finish_item(item);
