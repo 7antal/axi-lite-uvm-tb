@@ -16,7 +16,8 @@ sim/.fsm.sch.verilog.xml
 *.log
 *.daidir/
 *.vdb/
-csrc/.DS_Store
-.vscode/
+csrc/
+
+# OS and editor files
 .DS_Store
 .vscode/
