@@ -1,0 +1,20 @@
+# Simulation build artifacts
+sim/simv
+sim/simv.daidir/
+sim/csrc/
+sim/simv.vdb/
+sim/coverage.vdb/
+sim/coverage_report/
+sim/*.log
+sim/ucli.key
+sim/vc_hdrs.h
+sim/tr_db.log
+sim/.fsm.sch.verilog.xml
+
+# VCS generated
+*.key
+*.log
+*.daidir/
+*.vdb/
+csrc/.DS_Store
+.vscode/

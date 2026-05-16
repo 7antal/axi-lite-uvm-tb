@@ -1,0 +1,1995 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Rocky Linux release 8.10 (Green Obsidian)' is not supported 
+  on 'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+                         Chronologic VCS (TM)
+       Version U-2023.03-SP2_Full64 -- Fri May 15 16:41:52 2026
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'UVM_TESTNAME=axi_test' is ignored.
+
+ + use `+plusarg_save' to bind in runtime plusargs;
+ + use `+plusarg_ignore' to suppress this message.
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'UVM_VERBOSITY=UVM_LOW' is ignored.
+
+Parsing design file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_version_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_global_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/snps_macros.svp'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_message_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_phase_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_object_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_printer_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_tlm_defines.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_tlm_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_sequence_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_callback_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_reg_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_deprecated_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_hdl.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_regex.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_coreservice.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_version.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_object_globals.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_misc.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_object.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_pool.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_queue.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_factory.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_registry.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_spell_chkr.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_resource.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_resource_specializations.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_resource_db.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_config_db.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_printer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_comparer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_packer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_links.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_tr_database.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_tr_stream.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_recorder.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_event_callback.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_event.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_barrier.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_callback.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_callback.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_message.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_catcher.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_server.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_handler.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_object.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_transaction.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_domain.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_bottomup_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_topdown_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_task_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_common_phases.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_runtime_phases.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_component.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_root.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_component.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_objection.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_heartbeat.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_globals.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_cmdline_processor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_traversal.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_set_get_dap_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_simple_lock_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_set_before_get_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_port_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_ports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_exports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_analysis_port.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_sqr_connections.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_pair.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_policies.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_in_order_comparator.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_random_stimulus.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_subscriber.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_monitor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_driver.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_push_driver.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_scoreboard.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_agent.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_env.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_test.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_item.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer_param_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_push_sequencer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_library.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_builtin.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_time.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_item.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_adapter.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_predictor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_sequence.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_cbs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_backdoor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_field.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_vreg_field.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_indirect.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_fifo.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_file.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_mem_mam.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_vreg.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_mem.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_map.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_block.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/snps_uvm_reg_bank.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/vcs/vcs_uvm_alt.sv'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing design file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/src/uvm_pkg.sv'
+Parsing design file '../rtl/axi_lite_slave.sv'
+Parsing design file '../tb/axi_if.sv'
+Parsing design file '../tb/axi_sva.sv'
+Parsing design file '../tb/axi_pkg.sv'
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_seq_item.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_sequencer.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_base_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_read_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_stress_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_write_read_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_write_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_driver.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_monitor.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_scoreboard.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_cvg_report.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_coverage.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_agent.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_env.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../test/axi_test.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing design file '../tb/axi_tb_top.sv'
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '../tb/axi_tb_top.sv'.
+Top Level Modules:
+       axi_tb_top
+TimeScale is 1 ns / 1 ps
+VCS Coverage Metrics Release U-2023.03-SP2_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+Starting vcs inline pass...
+7 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package axi_pkg
+recompiling module axi_tb_top
+3 of 7 modules done
+	However, due to incremental compilation, only 3 modules need to be compiled. 
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib -L/software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1 /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/vpdlogstub.o uvm_dpi.o   objs/amcQw_d.o   _182733_archive_1.so _prev_archive_1.so   SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -lreader_common /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/libBA.a -luclinative /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 4.408 seconds to compile + .307 seconds to elab + .377 seconds to link
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  May 15 16:41 2026
+UVM_INFO /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+
+ VCS Coverage Metrics Release U-2023.03-SP2_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+UVM_INFO @ 0: reporter [RNTST] Running test axi_test...
+UVM_INFO ../tb/axi_env.sv(26) @ 0: uvm_test_top.env [ENV] Connections done
+UVM_INFO ../tb/axi_driver.sv(24) @ 25000: uvm_test_top.env.agent.driver [DRV] Driver initialized, waiting for items
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 75000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x8e5074e5
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 125000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x6a5fd1a8
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 175000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x6fe8b9fe
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 225000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xa211ed42
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 275000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x49f9065e
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 325000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x917d4e35
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 375000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x485dc02a
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 425000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x303f1f61
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 475000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x5c705fa9
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 525000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xf245a098
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 575000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0xee4013c9
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 625000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0x9d56ec4a
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 675000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xcfe06af8
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 725000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0x97be66d4
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 775000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xec7dac57
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 825000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x311f45b2
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 875000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x35cfd996
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 925000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x108ede10
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 975000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xb92b5cec
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 1025000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x9706865d
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1055000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1085000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1115000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1145000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1175000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1205000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1235000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1265000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1295000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1325000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1355000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1385000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1415000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1445000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1475000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1505000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1535000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1565000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1595000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1625000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1655000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1685000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1715000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1745000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xd got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1775000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1805000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1835000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1865000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1895000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1925000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1955000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1985000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2015000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2045000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2075000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2105000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2135000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2165000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2195000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2225000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2255000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2285000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2315000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2345000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2375000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2405000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2435000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2465000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2495000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2525000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2555000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2585000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2615000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2645000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2675000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2705000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2735000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2765000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2795000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2825000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2855000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2885000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2915000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2945000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2975000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3005000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3035000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3065000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3095000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3125000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3155000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3185000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3215000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3245000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3275000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3305000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3335000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3365000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xd got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3395000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3425000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3475000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xaa951ad3
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3525000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x1a8a7bd7
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3575000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0xf850a3f7
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3625000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xfccf1aa0
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3655000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0xaa951ad4 got=0xaa951ad4
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3685000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x1a8aa010 got=0x1a8aa010
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3715000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xf840a396 got=0xf840a396
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3745000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x31061af8 got=0x31061af8
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3755000ps failed at 3755000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3755000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3765000ps failed at 3765000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3765000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 3795000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3825000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xf840a396 got=0xf840a396
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3835000ps failed at 3835000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3835000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3845000ps failed at 3845000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3845000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 3875000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3905000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x31061af8 got=0x31061af8
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3915000ps failed at 3915000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3915000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3925000ps failed at 3925000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3925000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 3955000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3985000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x1a8aa010 got=0x1a8aa010
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3995000ps failed at 3995000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3995000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4005000ps failed at 4005000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4005000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4035000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4085000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x695a0e2f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4095000ps failed at 4095000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4095000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4105000ps failed at 4105000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4105000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4135000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 4165000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x1a8aa010 got=0x1a8aa010
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4175000ps failed at 4175000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4175000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4185000ps failed at 4185000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4185000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4215000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4265000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xfa8dddc
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4275000ps failed at 4275000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4275000 ps
+AXI: Unaligned write address 0x5
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4285000ps failed at 4285000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4285000 ps
+AXI: Unaligned write address 0x5
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4315000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4365000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x538a922e
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4375000ps failed at 4375000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4375000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4385000ps failed at 4385000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4385000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4415000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4465000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xc0a426a4
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4475000ps failed at 4475000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4475000 ps
+AXI: Unaligned write address 0xe
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4485000ps failed at 4485000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4485000 ps
+AXI: Unaligned write address 0xe
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4515000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4565000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x175f5f7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4575000ps failed at 4575000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4575000 ps
+AXI: Unaligned write address 0x5
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4585000ps failed at 4585000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4585000 ps
+AXI: Unaligned write address 0x5
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4615000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4665000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xf202c60b
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4675000ps failed at 4675000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4675000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4685000ps failed at 4685000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4685000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4715000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 4745000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xfa8c60b got=0xfa8c60b
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4755000ps failed at 4755000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4755000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4765000ps failed at 4765000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4765000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4795000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4845000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x16cbf725
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4855000ps failed at 4855000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4855000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4865000ps failed at 4865000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4865000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4895000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 4925000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xfa8c60b got=0xfa8c60b
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4935000ps failed at 4935000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4935000 ps
+AXI: Unaligned write address 0x6
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4945000ps failed at 4945000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4945000 ps
+AXI: Unaligned write address 0x6
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4975000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5025000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x6fbb542
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5035000ps failed at 5035000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5035000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5045000ps failed at 5045000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5045000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5075000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5125000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x551278c
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5135000ps failed at 5135000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5135000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5145000ps failed at 5145000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5145000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5175000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 5205000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0e25 got=0x55a0e25
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5215000ps failed at 5215000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5215000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5225000ps failed at 5225000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5225000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5255000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5305000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xb1569231
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5315000ps failed at 5315000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5315000 ps
+AXI: Unaligned write address 0x6
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5325000ps failed at 5325000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5325000 ps
+AXI: Unaligned write address 0x6
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5355000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 5385000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xffbc642 got=0xffbc642
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5395000ps failed at 5395000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5395000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5405000ps failed at 5405000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5405000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5435000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5485000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x20add75c
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5495000ps failed at 5495000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5495000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5505000ps failed at 5505000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5505000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5535000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 5565000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0e25 got=0x55a0e25
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5575000ps failed at 5575000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5575000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5585000ps failed at 5585000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5585000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5615000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5665000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xb6ab87b2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5675000ps failed at 5675000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5675000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5685000ps failed at 5685000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5685000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5715000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5765000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xfa44d081
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5775000ps failed at 5775000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5775000 ps
+AXI: Unaligned write address 0xf
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5785000ps failed at 5785000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5785000 ps
+AXI: Unaligned write address 0xf
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5815000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5865000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x24dbf8cf
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5875000ps failed at 5875000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5875000 ps
+AXI: Unaligned write address 0xb
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5885000ps failed at 5885000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5885000 ps
+AXI: Unaligned write address 0xb
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5915000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5965000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x598001e
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5975000ps failed at 5975000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5975000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5985000ps failed at 5985000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5985000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6015000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6045000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6055000ps failed at 6055000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6055000 ps
+AXI: Unaligned write address 0xd
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6065000ps failed at 6065000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6065000 ps
+AXI: Unaligned write address 0xd
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6095000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xd got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 6145000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0xb20b3a9d
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6155000ps failed at 6155000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6155000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6165000ps failed at 6165000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6165000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6195000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6225000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6235000ps failed at 6235000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6235000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6245000ps failed at 6245000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6245000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6275000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6305000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6315000ps failed at 6315000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6315000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6325000ps failed at 6325000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6325000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6355000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6385000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6395000ps failed at 6395000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6395000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6405000ps failed at 6405000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6405000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6435000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6465000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6475000ps failed at 6475000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6475000 ps
+AXI: Unaligned write address 0x6
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6485000ps failed at 6485000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6485000 ps
+AXI: Unaligned write address 0x6
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6515000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6545000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0xb1a49231 got=0xb1a49231
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6555000ps failed at 6555000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6555000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6565000ps failed at 6565000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6565000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6595000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6625000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6635000ps failed at 6635000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6635000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6645000ps failed at 6645000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6645000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6675000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6705000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6715000ps failed at 6715000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6715000 ps
+AXI: Unaligned write address 0xf
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6725000ps failed at 6725000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6725000 ps
+AXI: Unaligned write address 0xf
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6755000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6785000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6795000ps failed at 6795000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6795000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6805000ps failed at 6805000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6805000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6835000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6865000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6875000ps failed at 6875000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6875000 ps
+AXI: Unaligned write address 0xe
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6885000ps failed at 6885000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6885000 ps
+AXI: Unaligned write address 0xe
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6915000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6945000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6955000ps failed at 6955000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6955000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6965000ps failed at 6965000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6965000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6995000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 7025000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7035000ps failed at 7035000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7035000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7045000ps failed at 7045000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7045000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 7075000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 7105000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x24dbf881 got=0x24dbf881
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7115000ps failed at 7115000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7115000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7125000ps failed at 7125000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7125000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 7155000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 7185000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7195000ps failed at 7195000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7195000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7205000ps failed at 7205000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7205000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 7235000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 7285000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x8be961e1
+UVM_INFO /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_objection.svh(1276) @ 7285000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../tb/axi_cvg_report.sv(93) @ 7285000: reporter [CVG] 
+UVM_INFO ../tb/axi_cvg_report.sv(94) @ 7285000: reporter [CVG] ============================================================
+UVM_INFO ../tb/axi_cvg_report.sv(95) @ 7285000: reporter [CVG]   FUNCTIONAL COVERAGE REPORT
+UVM_INFO ../tb/axi_cvg_report.sv(96) @ 7285000: reporter [CVG] ============================================================
+UVM_INFO ../tb/axi_cvg_report.sv(71) @ 7285000: reporter [CVG] 
+UVM_INFO ../tb/axi_cvg_report.sv(72) @ 7285000: reporter [CVG]   Samples
+UVM_INFO ../tb/axi_cvg_report.sv(73) @ 7285000: reporter [CVG]   ----------------------------------------
+UVM_INFO ../tb/axi_cvg_report.sv(99) @ 7285000: reporter [CVG]   Total monitored transactions : 188
+UVM_INFO ../tb/axi_cvg_report.sv(100) @ 7285000: reporter [CVG]     Writes                     : 81
+UVM_INFO ../tb/axi_cvg_report.sv(101) @ 7285000: reporter [CVG]     Reads                      : 107
+UVM_INFO ../tb/axi_cvg_report.sv(71) @ 7285000: reporter [CVG] 
+UVM_INFO ../tb/axi_cvg_report.sv(72) @ 7285000: reporter [CVG]   Summary
+UVM_INFO ../tb/axi_cvg_report.sv(73) @ 7285000: reporter [CVG]   ----------------------------------------
+UVM_INFO ../tb/axi_cvg_report.sv(104) @ 7285000: reporter [CVG]   Overall                      100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(105) @ 7285000: reporter [CVG]   Goal (100%)                     MET
+UVM_INFO ../tb/axi_cvg_report.sv(71) @ 7285000: reporter [CVG] 
+UVM_INFO ../tb/axi_cvg_report.sv(72) @ 7285000: reporter [CVG]   Coverpoints
+UVM_INFO ../tb/axi_cvg_report.sv(73) @ 7285000: reporter [CVG]   ----------------------------------------
+UVM_INFO ../tb/axi_cvg_report.sv(77) @ 7285000: reporter [CVG]   cp_op            100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       write          HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       read           HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(77) @ 7285000: reporter [CVG]   cp_awaddr        100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_0      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_4      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_8      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_c      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       misaligned     HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(77) @ 7285000: reporter [CVG]   cp_araddr        100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_0      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_4      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_8      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       aligned_c      HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       misaligned     HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(77) @ 7285000: reporter [CVG]   cp_wstrb         100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(77) @ 7285000: reporter [CVG]   cp_bresp         100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       OKAY           HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       SLVERR         HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(77) @ 7285000: reporter [CVG]   cp_rresp         100.00%
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       OKAY           HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(81) @ 7285000: reporter [CVG]       SLVERR         HIT 
+UVM_INFO ../tb/axi_cvg_report.sv(137) @ 7285000: reporter [CVG] ============================================================
+UVM_INFO ../tb/axi_scoreboard.sv(96) @ 7285000: uvm_test_top.env.scoreboard [SCB] 
+UVM_INFO ../tb/axi_scoreboard.sv(97) @ 7285000: uvm_test_top.env.scoreboard [SCB] ============================================================
+UVM_INFO ../tb/axi_scoreboard.sv(98) @ 7285000: uvm_test_top.env.scoreboard [SCB]   SCOREBOARD SUMMARY
+UVM_INFO ../tb/axi_scoreboard.sv(99) @ 7285000: uvm_test_top.env.scoreboard [SCB] ============================================================
+UVM_INFO ../tb/axi_scoreboard.sv(100) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Total checks                 : 188
+UVM_INFO ../tb/axi_scoreboard.sv(101) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Passed                       : 188
+UVM_INFO ../tb/axi_scoreboard.sv(102) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Failed                       : 0
+UVM_INFO ../tb/axi_scoreboard.sv(103) @ 7285000: uvm_test_top.env.scoreboard [SCB] 
+UVM_INFO ../tb/axi_scoreboard.sv(104) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Write — valid addr, OKAY     : 41
+UVM_INFO ../tb/axi_scoreboard.sv(105) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Write — invalid addr, SLVERR : 40
+UVM_INFO ../tb/axi_scoreboard.sv(106) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Read  — valid addr, data OK : 67
+UVM_INFO ../tb/axi_scoreboard.sv(107) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Read  — invalid addr, SLVERR : 40
+UVM_INFO ../tb/axi_scoreboard.sv(108) @ 7285000: uvm_test_top.env.scoreboard [SCB] 
+UVM_INFO ../tb/axi_scoreboard.sv(110) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Note: misaligned writes trigger DUT alignment warnings (expected)
+UVM_INFO ../tb/axi_scoreboard.sv(111) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Result                       : PASS
+UVM_INFO ../tb/axi_scoreboard.sv(113) @ 7285000: uvm_test_top.env.scoreboard [SCB] ============================================================
+UVM_INFO /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_server.svh(904) @ 7285000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  250
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CVG]    41
+[DRV]     1
+[ENV]     1
+[RNTST]     1
+[SCB]   204
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time              7285000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+
+ Coverage status: End of All Coverages ...
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7285000 ps
+CPU Time:      0.350 seconds;       Data structure size:   0.4Mb
+Fri May 15 16:41:58 2026
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Rocky Linux release 8.10 (Green Obsidian)' is not supported 
+  on 'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+                         Chronologic VCS (TM)
+       Version U-2023.03-SP2_Full64 -- Fri May 15 16:48:40 2026
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'UVM_TESTNAME=axi_test' is ignored.
+
+ + use `+plusarg_save' to bind in runtime plusargs;
+ + use `+plusarg_ignore' to suppress this message.
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'UVM_VERBOSITY=UVM_LOW' is ignored.
+
+Parsing design file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_version_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_global_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/snps_macros.svp'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_message_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_phase_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_object_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_printer_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_tlm_defines.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_tlm_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_sequence_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_callback_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_reg_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/macros/uvm_deprecated_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_hdl.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_regex.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dpi/uvm_dpi.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_coreservice.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_version.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_object_globals.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_misc.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_object.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_pool.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_queue.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_factory.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_registry.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_spell_chkr.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_resource.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_resource_specializations.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_resource_db.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_config_db.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_printer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_comparer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_packer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_links.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_tr_database.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_tr_stream.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_recorder.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_event_callback.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_event.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_barrier.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_callback.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_callback.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_message.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_catcher.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_server.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_handler.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_object.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_transaction.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_domain.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_bottomup_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_topdown_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_task_phase.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_common_phases.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_runtime_phases.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_component.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_root.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_component.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_objection.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_heartbeat.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_globals.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_cmdline_processor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_traversal.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_set_get_dap_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_simple_lock_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_set_before_get_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/dap/uvm_dap.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_port_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_ports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_exports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_analysis_port.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_sqr_connections.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm1/uvm_tlm.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_pair.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_policies.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_in_order_comparator.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_random_stimulus.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_subscriber.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_monitor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_driver.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_push_driver.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_scoreboard.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_agent.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_env.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_test.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/comps/uvm_comps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_item.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer_param_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequencer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_push_sequencer.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_library.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_sequence_builtin.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/seq/uvm_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_time.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_item.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_adapter.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_predictor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_sequence.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_cbs.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_backdoor.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_field.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_vreg_field.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_indirect.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_fifo.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_file.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_mem_mam.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_vreg.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_mem.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_map.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_block.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/snps_uvm_reg_bank.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/reg/uvm_reg_model.svh'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/vcs/vcs_uvm_alt.sv'.
+Back to file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_pkg.sv'.
+Parsing design file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/src/uvm_pkg.sv'
+Parsing design file '../rtl/axi_lite_slave.sv'
+Parsing design file '../tb/axi_if.sv'
+Parsing design file '../tb/axi_sva.sv'
+Parsing design file '../tb/axi_pkg.sv'
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_seq_item.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_sequencer.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_base_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_read_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_stress_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_write_read_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/sequences/axi_write_seq.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_driver.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_monitor.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_scoreboard.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_cvg_report.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_coverage.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_agent.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../tb/axi_env.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing included file '../test/axi_test.sv'.
+Back to file '../tb/axi_pkg.sv'.
+Parsing design file '../tb/axi_tb_top.sv'
+Parsing included file '/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/uvm_macros.svh'.
+Back to file '../tb/axi_tb_top.sv'.
+Top Level Modules:
+       axi_tb_top
+TimeScale is 1 ns / 1 ps
+VCS Coverage Metrics Release U-2023.03-SP2_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+Starting vcs inline pass...
+7 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package axi_pkg
+Both modules done.
+	However, due to incremental compilation, only 2 modules need to be compiled. 
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib -L/software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1 /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/vpdlogstub.o uvm_dpi.o   objs/amcQw_d.o   _189347_archive_1.so _prev_archive_1.so   SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -lreader_common /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/libBA.a -luclinative /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /software/synopsys/vcs/U-2023.03-SP2/bin/../linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 5.115 seconds to compile + .305 seconds to elab + .397 seconds to link
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  May 15 16:48 2026
+UVM_INFO /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+
+ VCS Coverage Metrics Release U-2023.03-SP2_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+UVM_INFO @ 0: reporter [RNTST] Running test axi_test...
+UVM_INFO ../tb/axi_env.sv(26) @ 0: uvm_test_top.env [ENV] Connections done
+UVM_INFO ../tb/axi_driver.sv(24) @ 25000: uvm_test_top.env.agent.driver [DRV] Driver initialized, waiting for items
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 75000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x8e5074e5
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 125000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x6a5fd1a8
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 175000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x6fe8b9fe
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 225000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xa211ed42
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 275000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x49f9065e
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 325000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x917d4e35
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 375000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x485dc02a
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 425000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x303f1f61
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 475000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x5c705fa9
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 525000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xf245a098
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 575000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0xee4013c9
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 625000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0x9d56ec4a
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 675000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xcfe06af8
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 725000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0x97be66d4
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 775000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xec7dac57
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 825000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x311f45b2
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 875000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x35cfd996
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 925000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x108ede10
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 975000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xb92b5cec
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 1025000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x9706865d
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1055000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1085000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1115000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1145000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1175000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1205000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1235000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1265000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1295000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1325000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1355000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1385000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1415000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1445000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1475000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1505000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1535000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1565000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1595000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1625000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1655000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1685000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1715000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1745000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xd got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1775000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1805000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1835000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1865000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1895000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1925000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 1955000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 1985000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2015000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2045000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2075000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2105000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2135000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2165000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2195000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2225000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2255000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2285000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2315000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2345000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2375000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2405000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2435000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2465000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2495000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2525000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2555000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2585000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2615000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2645000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2675000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2705000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2735000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2765000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2795000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2825000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2855000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2885000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2915000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 2945000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 2975000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3005000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3035000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xb945a010 got=0xb945a010
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3065000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3095000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3125000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3155000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3185000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3215000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3245000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3275000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0x9d5666d4 got=0x9d5666d4
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3305000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3335000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x310645f8 got=0x310645f8
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3365000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xd got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3395000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0x3540b996 got=0x3540b996
+UVM_INFO ../tb/axi_scoreboard.sv(72) @ 3425000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3475000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xaa951ad3
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3525000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x1a8a7bd7
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3575000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0xf850a3f7
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 3625000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xfccf1aa0
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3655000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0xaa951ad4 got=0xaa951ad4
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3685000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x1a8aa010 got=0x1a8aa010
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3715000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xf840a396 got=0xf840a396
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3745000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x31061af8 got=0x31061af8
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3755000ps failed at 3755000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3755000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3765000ps failed at 3765000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3765000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 3795000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3825000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xf840a396 got=0xf840a396
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3835000ps failed at 3835000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3835000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3845000ps failed at 3845000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3845000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 3875000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3905000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x31061af8 got=0x31061af8
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3915000ps failed at 3915000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3915000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3925000ps failed at 3925000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3925000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 3955000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 3985000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x1a8aa010 got=0x1a8aa010
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 3995000ps failed at 3995000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 3995000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4005000ps failed at 4005000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4005000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4035000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4085000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x695a0e2f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4095000ps failed at 4095000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4095000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4105000ps failed at 4105000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4105000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4135000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 4165000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x1a8aa010 got=0x1a8aa010
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4175000ps failed at 4175000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4175000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4185000ps failed at 4185000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4185000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4215000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4265000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xfa8dddc
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4275000ps failed at 4275000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4275000 ps
+AXI: Unaligned write address 0x5
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4285000ps failed at 4285000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4285000 ps
+AXI: Unaligned write address 0x5
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4315000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4365000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x538a922e
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4375000ps failed at 4375000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4375000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4385000ps failed at 4385000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4385000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4415000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4465000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xc0a426a4
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4475000ps failed at 4475000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4475000 ps
+AXI: Unaligned write address 0xe
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4485000ps failed at 4485000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4485000 ps
+AXI: Unaligned write address 0xe
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4515000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4565000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x175f5f7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4575000ps failed at 4575000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4575000 ps
+AXI: Unaligned write address 0x5
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4585000ps failed at 4585000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4585000 ps
+AXI: Unaligned write address 0x5
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4615000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x5 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4665000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xf202c60b
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4675000ps failed at 4675000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4675000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4685000ps failed at 4685000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4685000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4715000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 4745000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xfa8c60b got=0xfa8c60b
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4755000ps failed at 4755000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4755000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4765000ps failed at 4765000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4765000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4795000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 4845000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x16cbf725
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4855000ps failed at 4855000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4855000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4865000ps failed at 4865000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4865000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4895000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 4925000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xfa8c60b got=0xfa8c60b
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4935000ps failed at 4935000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4935000 ps
+AXI: Unaligned write address 0x6
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 4945000ps failed at 4945000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 4945000 ps
+AXI: Unaligned write address 0x6
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 4975000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5025000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x6fbb542
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5035000ps failed at 5035000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5035000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5045000ps failed at 5045000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5045000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5075000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5125000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0x551278c
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5135000ps failed at 5135000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5135000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5145000ps failed at 5145000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5145000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5175000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 5205000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0e25 got=0x55a0e25
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5215000ps failed at 5215000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5215000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5225000ps failed at 5225000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5225000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5255000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5305000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 data=0xb1569231
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5315000ps failed at 5315000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5315000 ps
+AXI: Unaligned write address 0x6
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5325000ps failed at 5325000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5325000 ps
+AXI: Unaligned write address 0x6
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5355000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 5385000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0xffbc642 got=0xffbc642
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5395000ps failed at 5395000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5395000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5405000ps failed at 5405000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5405000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5435000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5485000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x20add75c
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5495000ps failed at 5495000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5495000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5505000ps failed at 5505000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5505000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5535000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 5565000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0e25 got=0x55a0e25
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5575000ps failed at 5575000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5575000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5585000ps failed at 5585000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5585000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5615000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5665000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc data=0xb6ab87b2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5675000ps failed at 5675000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5675000 ps
+AXI: Unaligned write address 0xa
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5685000ps failed at 5685000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5685000 ps
+AXI: Unaligned write address 0xa
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5715000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xa got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5765000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0xfa44d081
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5775000ps failed at 5775000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5775000 ps
+AXI: Unaligned write address 0xf
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5785000ps failed at 5785000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5785000 ps
+AXI: Unaligned write address 0xf
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5815000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5865000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x24dbf8cf
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5875000ps failed at 5875000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5875000 ps
+AXI: Unaligned write address 0xb
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5885000ps failed at 5885000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5885000 ps
+AXI: Unaligned write address 0xb
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 5915000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xb got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 5965000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0x598001e
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5975000ps failed at 5975000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5975000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 5985000ps failed at 5985000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 5985000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6015000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6045000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6055000ps failed at 6055000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6055000 ps
+AXI: Unaligned write address 0xd
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6065000ps failed at 6065000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6065000 ps
+AXI: Unaligned write address 0xd
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6095000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xd got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 6145000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 data=0xb20b3a9d
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6155000ps failed at 6155000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6155000 ps
+AXI: Unaligned write address 0x3
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6165000ps failed at 6165000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6165000 ps
+AXI: Unaligned write address 0x3
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6195000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x3 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6225000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6235000ps failed at 6235000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6235000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6245000ps failed at 6245000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6245000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6275000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6305000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6315000ps failed at 6315000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6315000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6325000ps failed at 6325000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6325000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6355000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6385000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6395000ps failed at 6395000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6395000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6405000ps failed at 6405000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6405000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6435000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6465000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6475000ps failed at 6475000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6475000 ps
+AXI: Unaligned write address 0x6
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6485000ps failed at 6485000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6485000 ps
+AXI: Unaligned write address 0x6
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6515000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x6 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6545000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x0 expected=0xb1a49231 got=0xb1a49231
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6555000ps failed at 6555000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6555000 ps
+AXI: Unaligned write address 0x1
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6565000ps failed at 6565000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6565000 ps
+AXI: Unaligned write address 0x1
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6595000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x1 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6625000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6635000ps failed at 6635000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6635000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6645000ps failed at 6645000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6645000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6675000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6705000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6715000ps failed at 6715000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6715000 ps
+AXI: Unaligned write address 0xf
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6725000ps failed at 6725000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6725000 ps
+AXI: Unaligned write address 0xf
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6755000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xf got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6785000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6795000ps failed at 6795000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6795000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6805000ps failed at 6805000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6805000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6835000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6865000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6875000ps failed at 6875000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6875000 ps
+AXI: Unaligned write address 0xe
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6885000ps failed at 6885000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6885000 ps
+AXI: Unaligned write address 0xe
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6915000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0xe got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 6945000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6955000ps failed at 6955000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6955000 ps
+AXI: Unaligned write address 0x9
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 6965000ps failed at 6965000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 6965000 ps
+AXI: Unaligned write address 0x9
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 6995000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x9 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 7025000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x8 expected=0xb20b3a7f got=0xb20b3a7f
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7035000ps failed at 7035000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7035000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7045000ps failed at 7045000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7045000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 7075000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 7105000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 expected=0x24dbf881 got=0x24dbf881
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7115000ps failed at 7115000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7115000 ps
+AXI: Unaligned write address 0x7
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7125000ps failed at 7125000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7125000 ps
+AXI: Unaligned write address 0x7
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 7155000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x7 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(58) @ 7185000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0xc expected=0x55a0eb2 got=0x55a0eb2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7195000ps failed at 7195000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7195000 ps
+AXI: Unaligned write address 0x2
+"../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: started at 7205000ps failed at 7205000ps
+	Offending '(awaddr[1:0] == 2'b0)'
+Warning: "../rtl/axi_lite_slave.sv", 189: axi_tb_top.dut.unnamed$$_19: at time 7205000 ps
+AXI: Unaligned write address 0x2
+UVM_INFO ../tb/axi_scoreboard.sv(44) @ 7235000: uvm_test_top.env.scoreboard [SCB] PASS: invalid addr=0x2 got SLVERR
+UVM_INFO ../tb/axi_scoreboard.sv(35) @ 7285000: uvm_test_top.env.scoreboard [SCB] PASS: addr=0x4 data=0x8be961e1
+UVM_INFO /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_objection.svh(1276) @ 7285000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../tb/axi_coverage.sv(37) @ 7285000: uvm_test_top.env.coverage [CVG] =================================
+UVM_INFO ../tb/axi_coverage.sv(38) @ 7285000: uvm_test_top.env.coverage [CVG]   FUNCTIONAL COVERAGE REPORT
+UVM_INFO ../tb/axi_coverage.sv(39) @ 7285000: uvm_test_top.env.coverage [CVG] =================================
+UVM_INFO ../tb/axi_coverage.sv(40) @ 7285000: uvm_test_top.env.coverage [CVG]   Overall     : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(41) @ 7285000: uvm_test_top.env.coverage [CVG]   cp_op       : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(42) @ 7285000: uvm_test_top.env.coverage [CVG]   cp_awaddr   : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(43) @ 7285000: uvm_test_top.env.coverage [CVG]   cp_araddr   : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(44) @ 7285000: uvm_test_top.env.coverage [CVG]   cp_bresp    : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(45) @ 7285000: uvm_test_top.env.coverage [CVG]   cp_rresp    : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(46) @ 7285000: uvm_test_top.env.coverage [CVG]   wstrb       : 100.00%
+UVM_INFO ../tb/axi_coverage.sv(47) @ 7285000: uvm_test_top.env.coverage [CVG] =================================
+UVM_INFO ../tb/axi_scoreboard.sv(96) @ 7285000: uvm_test_top.env.scoreboard [SCB] 
+UVM_INFO ../tb/axi_scoreboard.sv(97) @ 7285000: uvm_test_top.env.scoreboard [SCB] ============================================================
+UVM_INFO ../tb/axi_scoreboard.sv(98) @ 7285000: uvm_test_top.env.scoreboard [SCB]   SCOREBOARD SUMMARY
+UVM_INFO ../tb/axi_scoreboard.sv(99) @ 7285000: uvm_test_top.env.scoreboard [SCB] ============================================================
+UVM_INFO ../tb/axi_scoreboard.sv(100) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Total checks                 : 188
+UVM_INFO ../tb/axi_scoreboard.sv(101) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Passed                       : 188
+UVM_INFO ../tb/axi_scoreboard.sv(102) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Failed                       : 0
+UVM_INFO ../tb/axi_scoreboard.sv(103) @ 7285000: uvm_test_top.env.scoreboard [SCB] 
+UVM_INFO ../tb/axi_scoreboard.sv(104) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Write — valid addr, OKAY     : 41
+UVM_INFO ../tb/axi_scoreboard.sv(105) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Write — invalid addr, SLVERR : 40
+UVM_INFO ../tb/axi_scoreboard.sv(106) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Read  — valid addr, data OK : 67
+UVM_INFO ../tb/axi_scoreboard.sv(107) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Read  — invalid addr, SLVERR : 40
+UVM_INFO ../tb/axi_scoreboard.sv(108) @ 7285000: uvm_test_top.env.scoreboard [SCB] 
+UVM_INFO ../tb/axi_scoreboard.sv(110) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Note: misaligned writes trigger DUT alignment warnings (expected)
+UVM_INFO ../tb/axi_scoreboard.sv(111) @ 7285000: uvm_test_top.env.scoreboard [SCB]   Result                       : PASS
+UVM_INFO ../tb/axi_scoreboard.sv(113) @ 7285000: uvm_test_top.env.scoreboard [SCB] ============================================================
+UVM_INFO /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_report_server.svh(904) @ 7285000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  220
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CVG]    11
+[DRV]     1
+[ENV]     1
+[RNTST]     1
+[SCB]   204
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time              7285000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+
+ Coverage status: End of All Coverages ...
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7285000 ps
+CPU Time:      0.280 seconds;       Data structure size:   0.4Mb
+Fri May 15 16:48:46 2026
