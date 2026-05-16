@@ -106,7 +106,7 @@ write addresses and triggered SLVERR responses.
 
 Coverage is intentionally partial, already directed tests verify 
 specific requirements, not coverage closure.
-## 9. Key Learnings             ← shows self-awareness
+## 9. Key Learnings 
 - **AXI handshake protocol:** VALID must stay asserted until 
   READY — enforced by SVA and verified by simulation
 
