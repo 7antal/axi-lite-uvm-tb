@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1778841804.447557195, "rt":3.86, "ut":3.50, "st":0.18}}
-{"vcselab":{"timestamp_begin":1778841808.462414535, "rt":0.38, "ut":0.22, "st":0.11}}
-{"link":{"timestamp_begin":1778841808.951872463, "rt":0.32, "ut":0.19, "st":0.13}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1778841803.164137369}
-{"VCS_COMP_START_TIME": 1778841803.164137369}
-{"VCS_COMP_END_TIME": 1778841809.409062588}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 +incdir+/software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/src +incdir+../tb +incdir+../tb/sequences +incdir+../test /software/synopsys/vcs/U-2023.03-SP2/bin/../etc/uvm-1.2/src/uvm_pkg.sv +define+SIMULATION -timescale=1ns/1ps ../rtl/axi_lite_slave.sv ../tb/axi_if.sv ../tb/axi_sva.sv ../tb/axi_pkg.sv ../tb/axi_tb_top.sv -top axi_tb_top +UVM_TESTNAME=axi_test +UVM_VERBOSITY=UVM_LOW -o simv"}
-{"vcs1": {"peak_mem": 424928}}
-{"vcselab": {"peak_mem": 255268}}
